@@ -186,10 +186,17 @@
 
     <!-- more of category section -->
 
-    <section class="flex mt-[200px] justify-around w-[90%] mx-auto">
-      <div class="images">
-        <img class="h-[40rem]" src="image/Illustration.png" alt="" />
+    <section class="relative flex mt-[200px] justify-around w-[90%] mx-auto">
+      <div class="">
+        <div class="z-10">
+          <img class="h-[40rem]" src="image/Illustration.png" alt="backgroud" />
+        </div>
       </div>
+      <img
+        class="absolute z-0 left-[33rem] top-[33rem]"
+        src="image/back.png"
+        alt=""
+      />
       <div class="w-[40%] text-left mt-[9rem]">
         <h4 class="uppercase text-[#DF6951] text-xs mb-[10px] font-bold">
           Honeymoon Specials
@@ -213,14 +220,84 @@
 
     <!-- fast & Easy -->
 
-    <section class="w-[70%] justify-between mx-auto">
-      <div class="w-[50%]">
-        <h4 class="uppercase text-[#DF6951] text-xs mb-[10px] font-bold">
+    <section class="w-[70%] justify-between mx-auto mt-[200px] flex">
+      <div class="w-[30%]">
+        <h4 class="uppercase text-xs mb-[10px] font-bold text-[#DF6951]">
           fast & easy
         </h4>
         <p class="top text-[2rem] mb-[20px] font-semibold">
           Get Your Favourite Resort Bookings
         </p>
+        <div class="flex flex-col gap-6 text-[#5E6282]">
+          <div class="flex gap-4">
+            <img class="h-[40px]" src="image/des.png" alt="" />
+            <div class="">
+              <h3 class="text-sm font-bold">Choose Destination</h3>
+              <p class="text-xs">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                tortor tempus.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <img class="h-[40px]" src="image/check.png" alt="" />
+            <div class="">
+              <h3 class="text-sm font-bold">Check Availability</h3>
+              <p class="text-xs">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                tortor tempus.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <img class="h-[40px]" src="image/lets go.png" alt="" />
+            <div class="">
+              <h3 class="text-sm font-bold">Let's Go</h3>
+              <p class="text-xs">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                tortor tempus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- second part -->
+      <div class="relative text-[#5E6282]">
+        <!-- container with shadow -->
+        <!-- <div
+          class="absolute w-[18rem] right-[2rem] flex-col bg-[#ffffff] gap-2 rounded-[1.5rem] shadow-2xl shadow-blue-500/50 py-[1rem] px-[1.5rem]"
+        >
+          <img class="w-[18rem] h-[8rem]" src="image/bg rec.png" alt="" />
+          <div class="flex flex-col gap-2">
+            <h3 class="text-sm font-bold text-[#000] mt-[0.5rem]">Trip to Hawaii</h3>
+            <p class="text-xs">14-29 June | by JR Martinax</p>
+            <div class="icons flex gap-2 mt-[0.5rem]">
+              <ion-icon
+                class="bg-[#F5F5F5] rounded-full p-[8px]"
+                name="leaf"
+              ></ion-icon>
+              <ion-icon
+                class="bg-[#F5F5F5] rounded-full p-[8px]"
+                name="map"
+              ></ion-icon>
+              <ion-icon
+                class="bg-[#F5F5F5] rounded-full p-[8px]"
+                name="paper-plane"
+              ></ion-icon>
+            </div>
+            <div class="flex items-center justify-between mt-[0.5rem]">
+              <div class="flex items-center gap-2">
+                <ion-icon name="business-outline"></ion-icon>
+                <p class="text-xs">60 people are interested</p>
+              </div>
+              <ion-icon
+                class="bg-[#F5F5F5] rounded-full p-[8px] text-[#DF6951]"
+                name="heart-outline"
+              ></ion-icon>
+            </div>
+          </div>
+        </div> -->
+        <img class="bg-[red] absolute left-[33rem]" src="image/back.png" alt="">
       </div>
     </section>
 
