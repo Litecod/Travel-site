@@ -6,3 +6,16 @@
     font-family: "Volkhov", serif;
     
 }
+.nav.active {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: #000;
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar.active {
+    top: 4.5rem;
+}

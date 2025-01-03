@@ -30,97 +30,97 @@
       <div class="bg-[url(./image/bg.png)] bg-cover h-[100vh] overflow-hidden">
         <!-- navbar -->
         <nav
-          class="flex justify-between items-center w-[70%] mx-auto text-[#fff] pt-5"
+          class="nav flex justify-between mt-[1rem] md:mt-0 items-center w-[85%] md:w-[70%] mx-auto text-[#fff] pt-5"
         >
-          <img src="image/logo.png" alt="logo" class="logo" />
+          <img class="w-[5rem] md:w-[7rem]" src="image/logo.png" alt="logo" class="logo" />
           <div
-            class="md:relative absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5"
+            class="navbar md:relative absolute bg-[#000] top-[-14rem] md:top-0 z-10 md:bg-transparent left-0  md:w-auto w-full flex items-center px-5"
           >
             <ul
-              class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 text-white-500"
+              class=" flex md:flex-row flex-col md:items-center md:gap-[4vw] text-white-500"
             >
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Upcoming Packages</a></li>
+              <li class="py-[1rem] pl-[1rem] md:p-[0]"><a href="#">Home</a></li>
+              <li class="py-[1rem] pl-[1rem] md:p-[0]"><a href="#">About</a></li>
+              <li class="py-[1rem] pl-[1rem] md:p-[0]"><a href="#">Service</a></li>
+              <li class="py-[1rem] pl-[1rem] md:p-[0]"><a href="#">Upcoming Packages</a></li>
             </ul>
           </div>
           <div class="">
-            <button class="btn rounded-md bg-[#DF6951] p-[10px]">
+            <button class="btn rounded-md bg-[#DF6951] p-[5px] text-sm text-[1rem] md:p-[10px]">
               Get in touch
             </button>
-            <ion-icon class="md:hidden" name="grid-outline"></ion-icon>
+            <ion-icon class="md:hidden togle" name="grid-outline"></ion-icon>
           </div>
         </nav>
         <!-- hero -->
-        <div class="mt-20 w-[70%] relative mx-auto">
-          <img class="origin-top-right" src="image/Vector 1 (1).png" alt="" />
-          <h2 class="text-[#f2f2f2] text-[3.5rem] font-bold leading-tight">
+        <div class="mt-20 w-[85%] md:w-[70%] relative mx-auto">
+          <img class="origin-top-right w-[10rem] md:w-[6rem]" src="image/Vector 1 (1).png" alt="" />
+          <h2 class="text-[#f2f2f2] text-[2rem] md:text-[3.5rem] font-bold leading-tight">
             No matter where <br />
             you're going to, we'll <br />
             take you there
           </h2>
           <div
-            class="flex my-10 backdrop-blur-xl bg-[#ffffff98] w-[60%] p-[20px] rounded-md justify-between text-[#f2f2f2]"
+            class="flex my-10 backdrop-blur-xl bg-[#ffffff98] w-[100%] md:w-[60%] p-[10px] md:p-[20px] rounded-md justify-between text-[#f2f2f2]"
           >
-            <ul class="flex gap-8 items-center">
-              <li class="items-center">
+            <ul class="flex gap md:gap-8 items-center">
+              <li class="items-center text-[0.7rem] md:text-[1rem] flex">
                 Where to? <ion-icon name="chevron-down-outline"></ion-icon>
               </li>
               <hr class="origin-center rotate-90 w-[20px] h-[5px]" />
-              <li class="items-center">
+              <li class="items-center text-[0.7rem] md:text-[1rem]">
                 Travel Type <ion-icon name="chevron-down-outline"></ion-icon>
               </li>
               <hr class="origin-center rotate-90 w-[20px] h-[5px]" />
-              <li class="items-center">
+              <li class="items-center text-[0.7rem] md:text-[1rem]">
                 Duration <ion-icon name="chevron-down-outline"></ion-icon>
               </li>
             </ul>
-            <button class="btn px-[40px] py-[10px] rounded-md bg-[#DF6951]">
+            <button class="btn px-[10px] md:px-[40px] py-[5px] md:py-[10px] text-xs md:text-[1rem] rounded-md bg-[#DF6951]">
               Submit
             </button>
           </div>
-          <div class="flex items-center gap-2">
-            <div class="flex relative items-center">
-              <img src="image/client.png" alt="client" />
-              <p class="absolute text-[#f2f2f2] left-[159px] top-[4px]">+</p>
+          <div class="flex flex-col md:flex-row items-left md:items-center gap-2 ">
+            <div class="flex relative items-center ">
+              <img class=" h-[2.7rem] md:h-[2.3rem]" src="image/client.png" alt="client" />
+              <p class="absolute text-[#f2f2f2] left-[185px] md:left-[159px] top-[6.5px] md:top-[4px]">+</p>
             </div>
             <p class="text-[#f2f2f2] text-xs">
               2,500 people booked Tommorowland Event in last 24 hours
             </p>
           </div>
-          <div class="absolute left-[-220px] top-[470px]">
+          <div class="absolute left-[-70px] md:left-[-220px] top-[400px] md:top-[470px]">
             <img class="w-[15rem]" src="image/Scroll.png" alt="" />
           </div>
         </div>
       </div>
       <div class="flex bg-[#e6e6e6] py-[50px] justify-around">
-        <img src="image/fly.png" alt="" />
-        <img src="image/trivago.png" alt="" />
-        <img src="image/airbnb.png" alt="" />
-        <img src="image/air.png" alt="" />
-        <img src="image/swiss.png" alt="" />
+        <img class=" h-[1rem] md:h-[3.5rem]" src="image/fly.png" alt="" />
+        <img class=" h-[1rem] md:h-[3.5rem]" src="image/trivago.png" alt="" />
+        <img class=" h-[1rem] md:h-[3.5rem]" src="image/airbnb.png" alt="" />
+        <img class=" h-[1rem] md:h-[3.5rem]" src="image/air.png" alt="" />
+        <img class=" h-[1rem] md:h-[3.5rem]" src="image/swiss.png" alt="" />
       </div>
     </section>
 
     <!-- catergory section -->
 
     <section class="w-[70%] mx-auto mb-[50px]">
-      <div class="items-center my-20">
+      <div class="items-center my-[5rem] md:my-20">
         <h4 class="uppercase text-[#DF6951] text-xs text-center font-bold">
           catergory
         </h4>
-        <p class="top text-center text-[2.5rem] font-medium">
+        <p class="top text-center text-[1.5rem] md:text-[2.5rem] font-medium">
           We Offer Best Services
         </p>
       </div>
-      <div class="flex justify-around relative">
+      <div class="flex flex-col gap-4 md:gap-0 md:flex-row justify-around relative">
         <div
-          class="w-[22%] items-center text-center bg-[#ffffff] rounded-[20px] pt-[50px] pb-[20px] px-[25px] hover:shadow-lg hover:shadow-black-500/50"
+          class="w-[100%] md:w-[22%] items-center text-center bg-[#ffffff] rounded-[20px] pt-[50px] pb-[20px] px-[25px] shadow-lg shadow-black-500/50 md:hover:shadow-lg md:hover:shadow-black-500/50"
         >
           <div class="relative mb-[20px] w-[100%]">
             <img
-              class="absolute left-[2rem] top-[-2rem]"
+              class="absolute left-[5.5rem] md:left-[2rem] top-[-2rem]"
               src="image/tour.png"
               alt=""
             /><img
@@ -133,7 +133,7 @@
           <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat</p>
         </div>
         <div
-          class="z-10 w-[22%] items-center text-center bg-[#ffffff] rounded-[20px] pt-[50px] pb-[20px] px-[25px] hover:shadow-lg hover:shadow-black-500/50"
+          class="z-10 w-[100%] md:w-[22%] items-center text-center bg-[#ffffff] rounded-[20px] pt-[50px] pb-[20px] px-[25px] shadow-lg shadow-black-500/50 md:hover:shadow-lg md:hover:shadow-black-500/50"
         >
           <div class="relative mb-[40px] w-[100%]">
             <img
@@ -150,16 +150,16 @@
           <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat</p>
         </div>
         <img
-          class="absolute top-[11.5rem] z-0 left-[16rem]"
+          class="absolute hidden md:block top-[11.5rem] z-0 left-[16rem]"
           src="image/see-red.png"
           alt=""
         />
         <div
-          class="w-[22%] items-center text-center bg-[#ffffff] rounded-[20px] pt-[50px] pb-[20px] px-[25px] hover:shadow-lg hover:shadow-black-500/50"
+          class="w-[100%] md:w-[22%] items-center text-center bg-[#ffffff] rounded-[20px] pt-[50px] pb-[20px] px-[25px] shadow-lg shadow-black-500/50 md:hover:shadow-lg md:hover:shadow-black-500/50"
         >
           <div class="relative mb-[20px] w-[100%]">
             <img
-              class="absolute left-[2rem] top-[-2rem]"
+              class="absolute left-[5.5rem] md:left-[2rem] top-[-2rem]"
               src="image/hands 1.png"
               alt=""
             /><img
@@ -172,11 +172,11 @@
           <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat</p>
         </div>
         <div
-          class="w-[22%] items-center text-center bg-[#ffffff] rounded-[20px] pt-[50px] pb-[20px] px-[25px] hover:shadow-lg hover:shadow-black-500/50"
+          class="w-[100%] md:w-[22%] items-center text-center bg-[#ffffff] rounded-[20px] pt-[50px] pb-[20px] px-[25px] shadow-lg shadow-black-500/50 md:hover:shadow-lg md:hover:shadow-black-500/50"
         >
           <div class="relative mb-[20px] w-[100%]">
             <img
-              class="absolute left-[2rem] top-[-2rem]"
+              class="absolute left-[5.5rem] md:left-[2rem] top-[-2rem]"
               src="image/medical-team 1.png"
               alt=""
             /><img
@@ -193,10 +193,10 @@
 
     <!-- more of category section -->
 
-    <section class="relative flex mt-[200px] justify-around w-[90%] mx-auto">
+    <section class="relative hidden md:flex mt-[200px] justify-around w-[85%] md:w-[90%] mx-auto">
       <div class="z-10">
         <div class="">
-          <img class="h-[40rem]" src="image/Illustration.png" alt="backgroud" />
+          <img class="h-[20rem] md:h-[40rem]" src="image/Illustration.png" alt="backgroud" />
         </div>
       </div>
       <img
@@ -225,14 +225,45 @@
       </div>
     </section>
 
+    <!-- more of category section for responsive-->
+
+
+    <section class="relative md:hidden block flex flex-col md:flex-row mt-[1rem] justify-around w-[85%] md:w-[90%] mx-auto">
+      <div class="w-[100%] text-left mt-[9rem]">
+        <h4 class="uppercase text-[#DF6951] text-sm mb-[10px] font-bold">
+          Honeymoon Specials
+        </h4>
+        <p class="top text-[1.5rem] mb-[20px] font-semibold">
+          Our Romantic Tropical Destinations
+        </p>
+        <p class="text-base mb-[20px] mt-[1.3rem]">
+          Et labore harum non nobis ipsum eum molestias mollitia et corporis
+          praesentium a laudantium internos. Non quis eius quo eligendi corrupti
+          et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus
+          illum aut optio quibusdam!
+        </p>
+        <button
+          class="btn mt-[1rem] bg-[#DF6951] px-[2rem] py-[1rem] rounded-md text-[#f2f2f2]"
+        >
+          View Packages
+        </button>
+      </div>
+
+      <div class="z-10 mt-[4rem]">
+        <div class="items-left">
+          <img class="h-[20rem] md:h-[40rem]" src="image/Illustration.png" alt="backgroud" />
+        </div>
+      </div>
+    </section>
+
     <!-- fast & Easy -->
 
-    <section class="w-[70%] justify-between mx-auto mt-[200px] flex">
-      <div class="w-[30%]">
+    <section class="w-[85%] md:w-[70%] justify-between mx-auto mt-[200px] flex flex-col md:flex-row">
+      <div class="w-[100%]">
         <h4 class="uppercase text-xs mb-[10px] font-bold text-[#DF6951]">
           fast & easy
         </h4>
-        <p class="top text-[2rem] mb-[20px] font-semibold">
+        <p class="top text-[1.5rem] md:text-[2rem] mb-[20px] font-semibold">
           Get Your Favourite Resort Bookings
         </p>
         <div class="flex flex-col gap-6 text-[#5E6282]">
@@ -272,7 +303,7 @@
       <div class="relative text-[#5E6282] w-[70%]">
         <!-- container with shadow -->
         <div
-          class="absolute z-10 w-[18rem] top-[2.5rem] right-[10rem] flex-col bg-[#ffffff] gap-2 rounded-[1.5rem] shadow-2xl shadow-blue-500/50 py-[1rem] px-[1.5rem]"
+          class="absolute z-10 w-[18rem] top-[2.5rem] right-[0] left-[0.2rem] md:left-0 md:right-[10rem] flex-col bg-[#ffffff] gap-2 rounded-[1.5rem] shadow-2xl shadow-blue-500/50 py-[1rem] px-[1.5rem]"
         >
           <img class="w-[18rem] h-[8rem]" src="image/bg rec.png" alt="" />
           <div class="flex flex-col gap-2">
@@ -330,33 +361,36 @@
             ></ion-icon>
           </div>
         </div>
-        <img class="mt-[15rem] ml-[13rem]" src="image/plus.png" alt="" />
+        <img class="mt-[15rem] ml-[5rem]" src="image/plus.png" alt="" />
         <img
-          class="absolute z-0 left-[27rem] top-[-5rem]"
+          class="absolute z-0 left-0 md:left-[10rem] top-[0] md:top-[-5rem]"
           src="image/plane.png"
           alt=""
         />
       </div>
     </section>
     <!-- liberty tower section -->
-    <section class="my-20 w-100%">
+    <section class="my-10 md:my-20 w-100%">
       <div class="w-[100%] bg-[url(./image/liberty.png)] bg-cover">
-        <div class="w-[70%] mx-auto py-[5rem]">
-          <h2 class="top font-bold text-[#fff] text-[3rem]">
+        <div class="w-[70%] mx-auto py-[2rem] md:py-[5rem]">
+          <h2 class="top font-bold text-[#fff] text-[2rem] md:text-[3rem]">
             Let's make your <br />next holiday amazing
           </h2>
-          <img class="ml-[20rem]" src="image/zig-zag.png" alt="" />
+          <img class="hidden md:block ml[20rem]" src="image/zig-zag.png" alt="" />
+
+          <!-- reponsive -->
+          <img class="ml-[5rem] md:hidden w-[6rem]" src="image/zig-zag.png" alt="" />
         </div>
       </div>
     </section>
 
     <!-- promotion -->
-    <section class="w-[70%] flex justify-between mx-auto">
-      <div class="w-[40%] text-left mt-[9rem]">
+    <section class="w-[85%] md:w-[70%] flex flex-col md:flex-row justify-between mx-auto">
+      <div class=" md:w-[40%] text-left mt-[9rem]">                                                                                                                                                                                                                                              
         <h4 class="uppercase text-[#DF6951] text-xs mb-[10px] font-bold">
           Promotion
         </h4>
-        <p class="top text-[2rem] mb-[20px] font-semibold">
+        <p class="top text-[1.5rem] md:text-[2rem] mb-[20px] font-semibold">
           We Provide You Best Europe Sightseeing Tours
         </p>
         <p class="text-base mb-[20px]">
@@ -371,10 +405,10 @@
           View Packages
         </button>
 
-        <div class="mt-[6rem] flex gap-6 absolute">
+        <div class="mt-[6rem] flex flex-col md:flex-row gap-6 relative md:absolute">
           <div class="relative">
             <img
-              class="w-[10rem] h-[10rem] object-cover rounded-md"
+              class="w-[100%] md:w-[10rem] h-[10rem] object-cover rounded-md"
               src="image/image1.jpeg"
               alt=""
             />
@@ -386,7 +420,7 @@
           </div>
           <div class="relative">
             <img
-              class="w-[10rem] h-[10rem] object-cover rounded-md"
+              class="w-[100%] md:w-[10rem] h-[10rem] object-cover rounded-md"
               src="image/image2.jpeg"
               alt=""
             />
@@ -398,7 +432,7 @@
           </div>
           <div class="relative">
             <img
-              class="w-[10rem] h-[10rem] object-cover rounded-md"
+              class="w-[100%] md:w-[10rem] h-[10rem] object-cover rounded-md"
               src="image/image3.jpeg"
               alt=""
             />
@@ -410,7 +444,7 @@
           </div>
           <div class="relative">
             <img
-              class="w-[10rem] h-[10rem] object-cover rounded-md"
+              class="w-[100%] md:w-[10rem] h-[10rem] object-cover rounded-md"
               src="image/image4.jpeg"
               alt=""
             />
@@ -422,10 +456,10 @@
           </div>
         </div>
       </div>
-      <div class="mt-[10rem]">
+      <div class="mt-[3rem]">
         <div class="">
           <img
-            class="h-[36rem]"
+            class="h-[25rem] md:h-[36rem]"
             src="image/Illustration (2).png"
             alt="backgroud"
           />
@@ -440,14 +474,14 @@
         <div
           class="bg-[rgba(0,0,0,0.6)] bg-[url(./image/bg1.png)] text-center items-center bg-cover py-[5rem] w-[50%]"
         >
-          <h4 class="uppercase text-[#DF6951] text-xs mb-[10px] font-bold">
+          <h4 class="uppercase text-[#DF6951] text-sm md:text-xs mb-[10px] font-bold">
             Promotion
           </h4>
-          <p class="top text-[2rem] mb-[20px] font-semibold text-[#fff]">
+          <p class="top text-[1rem] md:text-[2rem] mb-[20px] font-semibold text-[#fff]">
             Explore Nature
           </p>
           <button
-            class="btn px-[2rem] py-[1rem] rounded-md text-[#fff] border-[#fff] border-[2px]"
+            class="btn px-[1rem] md:px-[2rem] py-[0.5rem] md:py-[1rem] rounded-md text-[#fff] border-[#fff] border-[2px]"
           >
             View Packages
           </button>
@@ -458,11 +492,11 @@
           <h4 class="uppercase text-[#DF6951] text-xs mb-[10px] font-bold">
             Promotion
           </h4>
-          <p class="top text-[2rem] mb-[20px] font-semibold text-[#fff]">
+          <p class="top text-[1rem] md:text-[2rem] mb-[20px] font-semibold text-[#fff]">
             Explore Cities
           </p>
           <button
-            class="btn px-[2rem] py-[1rem] rounded-md text-[#fff] border-[#fff] border-[2px]"
+            class="btn px-[1rem] md:px-[2rem] py-[0.5rem] md:py-[1rem] rounded-md text-[#fff] border-[#fff] border-[2px]"
           >
             View Packages
           </button>
@@ -472,18 +506,18 @@
 
     <!-- Trendy section -->
 
-    <section class="w-[70%] mx-auto">
+    <section class="w-[85%] md:w-[70%] mx-auto">
       <div class="text-center">
-        <h4 class="uppercase text-[#DF6951] text-xs mb-[10px] font-bold">
+        <h4 class="uppercase text-[#DF6951] text-sm md:text-xs mb-[10px] font-bold">
           trendy
         </h4>
-        <p class="top text-[2rem] mb-[20px] font-semibold">
+        <p class="top text-[1.5rem] md:text-[2rem] mb-[20px] font-semibold">
           Our Trending Tour <br />
           Packages
         </p>
       </div>
-      <div class="text-[#5E6282] flex justify-between my-20">
-        <div class="w-[30%] flex flex-col gap-2">
+      <div class="text-[#5E6282] flex flex-col md:flex-row justify-between my-20">
+        <div class="mt-[1.5rem] w-100% md:w-[30%] flex flex-col gap-2">
           <img
             class="w-[20rem] h-[15rem]"
             src="image/trendy1.png"
@@ -527,7 +561,7 @@
             Explore Now
           </button>
         </div>
-        <div class="w-[30%] flex flex-col gap-2">
+        <div class="mt-[1.5rem] w-100% md:w-[30%] flex flex-col gap-2">
           <img
             class="w-[20rem] h-[15rem]"
             src="image/trendy2.png"
@@ -571,7 +605,7 @@
             Explore Now
           </button>
         </div>
-        <div class="w-[30%] flex flex-col gap-2">
+        <div class="mt-[1.5rem] w-100% md:w-[30%] flex flex-col gap-2">
           <img
             class="w-[20rem] h-[15rem]"
             src="image/trendy3.png"
@@ -714,5 +748,6 @@
       <p class="text-center mb-[2rem]">Copyright @ Xpro 2022. All Rights Reserved.</p>
     </footer>
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+     <script src="script.js"></script>
   </body>
 </html>
